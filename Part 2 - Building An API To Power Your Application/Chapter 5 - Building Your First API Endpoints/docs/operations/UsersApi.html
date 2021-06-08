@@ -1,0 +1,158 @@
+<div class="main-content">
+  <h2><a name=""></a></h2>
+  <p>This is the  API</p>
+
+  <h2><a name="addUser"></a>addUser</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://virtserver.swaggerhub.com/tephlon/n8n-user-management/1.0.0/api/v1/user/add</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="userID"><a href="">userID</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">fname</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">User&#x27;s First Name</p>
+	  </li>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">lname</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">User&#x27;s Last Name</p>
+	  </li>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">email</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">User&#x27;s Email Address</p>
+	  </li>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">password</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">User&#x27;s Password</p>
+	  </li>
+  </ul>
+  <h2><a name="changePW"></a>changePW</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://virtserver.swaggerhub.com/tephlon/n8n-user-management/1.0.0/api/v1/user/changepw</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="Result"><a href="">Result</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">userID</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">User ID</p>
+	  </li>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">oldPW</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">Old Password</p>
+	  </li>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">newPW</span>
+      <span class="param-type">String</span>
+      
+      <p class="param-description">New Password</p>
+	  </li>
+  </ul>
+  <h2><a name="delUser"></a>delUser</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://virtserver.swaggerhub.com/tephlon/n8n-user-management/1.0.0/api/v1/user/delete</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>POST</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="Result"><a href="">Result</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+	  <li class="parameter">
+      
+      <span class="param-in">Query: </span>
+      
+      
+      
+      <span class="param-name">userID</span>
+      <span class="param-type">Integer</span>
+      
+      <p class="param-description">User ID</p>
+	  </li>
+  </ul>
+  <h2><a name="listUsers"></a>listUsers</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://virtserver.swaggerhub.com/tephlon/n8n-user-management/1.0.0/api/v1/users/list</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="User"><a href="">User</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+  <h2><a name="searchUsers"></a>searchUsers</h2>
+  <hr>
+  <p></p>
+  
+  <h3 class="section">URL</h3>
+  <code>https://virtserver.swaggerhub.com/tephlon/n8n-user-management/1.0.0/api/v1/users/search</code>
+  <h3 class="section">HTTP Method</h3>
+  <code>GET</code>
+  <h3 class="section">Response Type</h3>
+  <div class="model" data-model="User"><a href="">User</a></div>
+  <h3 class="section">Parameters</h3>
+  <ul>
+  </ul>
+</div>

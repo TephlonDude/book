@@ -9,8 +9,11 @@
     "version" : "1.0.0"
   },
   "servers" : [ {
-    "url" : "https://virtserver.swaggerhub.com/tephlon/n8n-user-management/1.0.0",
-    "description" : "User Management API designed for n8n"
+    "url" : "https://tephlon.app.n8n.cloud/webhook",
+    "description" : "Production"
+  }, {
+    "url" : "https://tephlon.app.n8n.cloud/webhook-test",
+    "description" : "Test"
   } ],
   "security" : [ {
     "bearerAuth" : [ ]
